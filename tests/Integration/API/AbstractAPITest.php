@@ -5,7 +5,7 @@ namespace Xsolla\SDK\Tests\Integration\API;
 use Xsolla\SDK\API\XsollaClient;
 use Xsolla\SDK\Tests\Helper\XsollaClientHelper;
 
-abstract class AbstractAPITest extends \PHPUnit_Framework_TestCase
+abstract class AbstractAPITest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @var XsollaClient

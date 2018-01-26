@@ -7,7 +7,7 @@ use Xsolla\SDK\Webhook\Response\PinCodeResponse;
 /**
  * @group unit
  */
-class PinCodeResponseTest extends \PHPUnit_Framework_TestCase
+class PinCodeResponseTest extends \PHPUnit\Framework\TestCase
 {
     public function testPinCodeHasInvalidType()
     {

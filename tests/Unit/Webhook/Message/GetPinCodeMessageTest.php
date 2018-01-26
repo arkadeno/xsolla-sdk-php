@@ -7,7 +7,7 @@ use Xsolla\SDK\Webhook\Message\GetPinCodeMessage;
 /**
  * @group unit
  */
-class GetPinCodeMessageTest extends \PHPUnit_Framework_TestCase
+class GetPinCodeMessageTest extends \PHPUnit\Framework\TestCase
 {
     protected $request = array(
         'user' => array(

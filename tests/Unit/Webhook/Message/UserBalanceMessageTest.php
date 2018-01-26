@@ -7,7 +7,7 @@ use Xsolla\SDK\Webhook\Message\UserBalanceMessage;
 /**
  * @group unit
  */
-class UserBalanceMessageTest extends \PHPUnit_Framework_TestCase
+class UserBalanceMessageTest extends \PHPUnit\Framework\TestCase
 {
     protected $request = array(
         'virtual_currency_balance' => array(

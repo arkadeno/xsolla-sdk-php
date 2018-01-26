@@ -7,7 +7,7 @@ use Xsolla\SDK\API\PaymentUI\TokenRequest;
 /**
  * @group unit
  */
-class TokenRequestTest extends \PHPUnit_Framework_TestCase
+class TokenRequestTest extends \PHPUnit\Framework\TestCase
 {
     public function testSetters()
     {

@@ -7,7 +7,7 @@ use Xsolla\SDK\Webhook\Message;
 /**
  * @group unit
  */
-class MessageTest extends \PHPUnit_Framework_TestCase
+class MessageTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * @dataProvider factoryProvider

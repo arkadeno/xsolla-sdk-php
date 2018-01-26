@@ -7,7 +7,7 @@ use Xsolla\SDK\Webhook\Message\CancelSubscriptionMessage;
 /**
  * @group unit
  */
-class CancelSubscriptionMessageTest extends \PHPUnit_Framework_TestCase
+class CancelSubscriptionMessageTest extends \PHPUnit\Framework\TestCase
 {
     protected $request = array(
         'notification_type' => 'cancel_subscription',

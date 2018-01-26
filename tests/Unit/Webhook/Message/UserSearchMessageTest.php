@@ -7,7 +7,7 @@ use Xsolla\SDK\Webhook\Message\UserSearchMessage;
 /**
  * @group unit
  */
-class UserSearchMessageTest extends \PHPUnit_Framework_TestCase
+class UserSearchMessageTest extends \PHPUnit\Framework\TestCase
 {
     public function testUserPublicId()
     {

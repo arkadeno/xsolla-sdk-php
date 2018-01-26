@@ -7,7 +7,7 @@ use Xsolla\SDK\Webhook\Message\PaymentMessage;
 /**
  * @group unit
  */
-class PaymentMessageTest extends \PHPUnit_Framework_TestCase
+class PaymentMessageTest extends \PHPUnit\Framework\TestCase
 {
     protected $request = array(
         'notification_type' => 'payment',

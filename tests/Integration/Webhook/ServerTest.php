@@ -13,7 +13,7 @@ use Xsolla\SDK\Version;
 /**
  * @group webhook-php-server
  */
-class ServerTest extends \PHPUnit_Framework_TestCase
+class ServerTest extends \PHPUnit\Framework\TestCase
 {
     const PROJECT_SECRET_KEY = 'PROJECT_SECRET_KEY';
 

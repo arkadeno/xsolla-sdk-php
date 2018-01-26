@@ -7,7 +7,7 @@ use Xsolla\SDK\Webhook\Message\CreateSubscriptionMessage;
 /**
  * @group unit
  */
-class CreateSubscriptionMessageTest extends \PHPUnit_Framework_TestCase
+class CreateSubscriptionMessageTest extends \PHPUnit\Framework\TestCase
 {
     protected $request = array(
         'notification_type' => 'create_subscription',

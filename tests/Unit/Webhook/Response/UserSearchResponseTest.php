@@ -8,7 +8,7 @@ use Xsolla\SDK\Webhook\User;
 /**
  * @group unit
  */
-class UserSearchResponseTest extends \PHPUnit_Framework_TestCase
+class UserSearchResponseTest extends \PHPUnit\Framework\TestCase
 {
     public function testUserIdHasInvalidType()
     {
